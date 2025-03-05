@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+h1 {
+	color: darkblue;
+    font-family: Cinzel;
+    font-size: 40px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    padding: 5px;
+    text-align: center;
+}
+
+.banniere{
+	padding: 20px;
+	background-image: linear-gradient(90deg, #8A2387, #E94057, #F27121);
+	background-size: cover;
+	background-position: bottom;
+}
+
+p {
+	color: white;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+h2 {
+	color: deepskyblue;
+	font-size: 25px;
+}
+
+body {
+	background: linear-gradient(#150461, #7303c0, #21ebf2);
+	color: white;
+	font-family: sans-serif;
+}
+
+table {
+  border-collapse: revert;
+  border: 4px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: black;
+}
+
+td, th {
+  border: 4px solid rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+img:hover{
+	opacity: 0.5;
+}
+
+h1:hover {
+    color: #CDF0EA;
+}
+
+p:hover {
+    color: skyblue;
+}
+
+.conteneur {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 25px;
+	margin-bottom: 20px;
+}
+
+.conteneur img {
+	border-radius: 15px;
+	box-shadow: 3px 6px 15px rgba(180, 3, 56, 0.733);
+}
+
+.conteneur2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 25px;
+}
+
+.conteneur2 img {
+	border-radius: 15px;
+	box-shadow: 3px 6px 15px rgba(180, 3, 56, 0.733)
+}
+
+fieldset {
+	padding: 20px;
+	background-image: linear-gradient(90deg, #8A2387, #E94057, #F27121);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.exp {
+	color: #150461;
+}
+
+input {
+	border: 1px solid;
+	padding: 10px black;
+}
+
+@media screen and (max-width: 1200px) {
+	p {
+		color: rgb(157, 102, 207);
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.conteneur, .conteneur2 {
+		flex-direction: column;
+	}
+
+	p {
+		overflow: scroll;
+	}
+}
+
+@media screen and (max-width: 1280px);
+@media all and (min-width: 1024px) and (max-width: 1280px);
+@media all and (orientation: portrait);
